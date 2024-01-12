@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HostScan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HostScan_jar</output-path>
+    <root id="archive" name="HostScan.jar">
+      <element id="module-output" name="HostScan" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/portswigger/burp/extensions/montoya-api/2023.10.4/montoya-api-2023.10.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
