@@ -18,7 +18,7 @@
 
 ![install1](./images/install1.png)
 
-![install2](./images/install2.png)
+![install2](./images/show.png)
 
 ### 使用说明
 
@@ -38,7 +38,7 @@
 
 ![operate](./images/operate.png)
 
-![show](./images/show.png)
+![show](./images/install2.png)
 
 ### 主动扫描
 
