@@ -26,6 +26,7 @@ public class BurpExtender implements BurpExtension {
         logging.logToOutput("""
                 ===================================
                 HostScan v2.1 load success!
+                Author: hy0jer
                 ===================================""");
         this.api = api;
         TableTemplate tableModel = new TableTemplate();
