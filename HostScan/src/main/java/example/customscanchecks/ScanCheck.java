@@ -23,10 +23,6 @@ import static java.util.Collections.singletonList;
 
 
 class ScanCheck implements burp.api.montoya.scanner.ScanCheck {
-    private final TableTemplate tableModel;
-    private static final String GREP_STRING = "www.test.com";
-    private final MontoyaApi api;
-    public ConfigUi configUi;
 
     ScanCheck(MontoyaApi api, TableTemplate tableModel, ConfigUi configUi) {
         this.tableModel = tableModel;
@@ -71,4 +67,9 @@ class ScanCheck implements burp.api.montoya.scanner.ScanCheck {
     public ConsolidationAction consolidateIssues(AuditIssue newIssue, AuditIssue existingIssue) {
         return existingIssue.name().equals(newIssue.name()) ? KEEP_EXISTING : KEEP_BOTH;
     }
+
+    private final TableTemplate tableModel;
+    private static final String GREP_STRING = "www.test.com";
+    private final MontoyaApi api;
+    public ConfigUi configUi;
 }
